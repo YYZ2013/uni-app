@@ -1,0 +1,44 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.9.2",
+  "appid": "touristappid",
+  "projectname": "news",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 1,
+      "list": [
+        {
+          "name": "test",
+          "query": "newsid=5301236",
+          "id": 0,
+          "pathName": "pages/info/info"
+        },
+        {
+          "id": 1,
+          "name": "pages/info/info",
+          "pathName": "pages/info/info",
+          "query": "newsid=117430"
+        }
+      ]
+    }
+  }
+}
